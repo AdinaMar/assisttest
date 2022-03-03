@@ -1,0 +1,35 @@
+.sidenav{
+    height: 100%;
+    width: 230px;
+    position:fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    background-color: #347ab4;
+   overflow-x: hidden;
+   padding-top: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-items: center;
+}
+
+.sidenav .logo{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+.logo img {
+width:120px;
+height:80px;
+}
+
+.sidenav .navbar {
+    list-style: none;
+}
+
+.sidenav .navbar .nav-link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px;
+}
